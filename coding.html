@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Program</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        body {
+            background-color: #FFFACD; /* Light Yellow */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: black;
+        }
+        header {
+            background-color: #FFA500; /* Orange */
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+        }
+        table, th, td {
+            border: 1px solid black;
+            color: black;
+        }
+        th, td {
+            padding: 10px;
+        }
+        button {
+            background-color: #FFA500; /* Orange */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #FF8C00; /* Darker Orange */
+        }
+        img {
+            width: 200px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Afterschool Coding Program</h1>
+    </header>
+    
+    <section>
+        <h2>Why Learn Coding?</h2>
+        <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kid coding on a laptop" width ="500" height="100">
+        <img src="https://th.bing.com/th?q=Scratch+Kids+Coding&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-WW&cc=KE&setlang=en&adlt=moderate&t=1&mw=247" alt="Block Coding" width="500" height="100">
+        <img src="https://images.pexels.com/photos/11035547/pexels-photo-11035547.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Coding Languages" width ="500" height="100">
+        <p>Our coding program introduces kids to the basics of programming through fun, interactive lessons. Students will learn problem-solving, logic, and creativity using beginner-friendly tools like Scratch and Code.org.</p>
+    </section>
+    
+    <section>
+        <h2>Class Schedule</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>4:00 PM - 5:00 PM</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>4:00 PM - 5:00 PM</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>4:00 PM - 5:00 PM</td>
+                <td>Advanced</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section>
+        <h2>What you can do Now...!</h2>
+        <img src="https://th.bing.com/th/id/OIP.X0lj0NjTaP4GbDwVb5k-8AHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Sign up for coding class">
+        <form action="submit_form.php" method="post">
+            <label for="name">Child's Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+            
+            <br>
+
+            <label for="level">Select Level:</label>
+            <select id="level" name="level">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select><br>
+            
+            <br>
+
+            <label for="email">Parent's Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <br><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Class Measures Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
